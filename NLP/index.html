@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="./qanda.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar" style="background-color: #463494;">
+            <div class="container">
+                <a class="navbar-brand" style="color: #eee;" href="../index.html">HOME</a>
+                <a class="navbar-brand" style="color: #eee;" href="./index.html">NLP</a>
+                <a class="navbar-brand" style="color: #eee;" href="../TFJS/ImageClassification/index.html">ImageClassficiation</a>
+            </div>
+        </nav>
+        <div class="cover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="infoCard">
+                            <div class="infoSubheadline model-title-holder" style="display: block;">
+                                <h1 style="text-align:center">NLP WORKLOAD</h1>
+                                <h2 style="text-align:center">Question Answering Dataset</h2>
+                            </div>
+                            <div>
+                                <label for="backend">Select backend:</label>
+                                <select name="backend" id="backend">
+                                    <option value="WEBGL">WEBGL</option>
+                                    <option value="CPU">CPU</option>
+                                    <option value="WASM">WASM</option>
+                                </select>
+                            </div>
+                            <div class="infoBody">
+                                <h1>Geology</h1>
+                                <h2>The Question Answering Dataset</h2>
+                                <p style="text-align:right" class="text-success" id="totalTime"></p>
+                                <div class="para-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <pre
+                                                id='passage'>There are three major types of rock: igneous, sedimentary, and metamorphic. The rock cycle is an important concept in geology which illustrates the relationships between these three types of rock, and magma. When a rock crystallizes from melt (magma and/or lava), it is an igneous rock. This rock can be weathered and eroded, and then redeposited and lithified into a sedimentary rock, or be turned into a metamorphic rock due to heat and pressure that change the mineral content of the rock which gives it a characteristic fabric. The sedimentary rock can then be subsequently turned into a metamorphic rock due to heat and pressure and is then weathered, eroded, deposited, and lithified, ultimately becoming a sedimentary rock. Sedimentary rock may also be re-eroded and redeposited, and metamorphic rock may also undergo additional metamorphism. All three types of rocks may be re-melted; when this happens, a new magma is formed, from which an igneous rock may once again crystallize.</pre>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="qas-wrap">
+                                                <div class="qa-wrap correct-qa">
+                                                    <span id="questionList"></span>
+                                                    <br />
+                                                    <button id="queSubmit" type="submit" class="btn btn-primary mb-3"
+                                                        disabled>Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="infoBody">
+                                <h1>Force</h1>
+                                <h2>The Question Answering Dataset</h2>
+                                <p style="text-align:right" class="text-success" id="totalTime1"></p>
+                                <div class="para-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <pre
+                                                id='passage1'>Philosophers in antiquity used the concept of force in the study of stationary and moving objects and simple machines, but thinkers such as Aristotle and Archimedes retained fundamental errors in understanding force. In part this was due to an incomplete understanding of the sometimes non-obvious force of friction, and a consequently inadequate view of the nature of natural motion. A fundamental error was the belief that a force is required to maintain motion, even at a constant velocity. Most of the previous misunderstandings about motion and force were eventually corrected by Galileo Galilei and Sir Isaac Newton. With his mathematical insight, Sir Isaac Newton formulated laws of motion that were not improved-on for nearly three hundred years. By the early 20th century, Einstein developed a theory of relativity that correctly predicted the action of forces on objects with increasing momenta near the speed of light, and also provided insight into the forces produced by gravitation and inertia.</pre>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="qas-wrap">
+                                                <div class="qa-wrap correct-qa">
+                                                    <span id="questionList1"></span>
+                                                    <br />
+                                                    <button id="queSubmit1" type="submit1" class="btn btn-primary mb-3"
+                                                        disabled>Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="infoBody">
+                                <h1>Construction</h1>
+                                <h2>The Question Answering Dataset</h2>
+                                <p style="text-align:right" class="text-success" id="totalTime2"></p>
+                                <div class="para-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <pre
+                                                id='passage2'>Construction is the process of constructing a building or infrastructure. Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client. Construction as an industry comprises six to nine percent of the gross domestic product of developed countries. Construction starts with planning,[citation needed] design, and financing and continues until the project is built and ready for use.</pre>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="qas-wrap">
+                                                <div class="qa-wrap correct-qa">
+                                                    <span id="questionList2"></span>
+                                                    <br />
+                                                    <button id="queSubmit2" type="submit2" class="btn btn-primary mb-3"
+                                                        disabled>Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- Load TensorFlow.js. This is required to use the qna model. -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script> -->
+    <!-- Adds the WASM backend to the global backend registry -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/tf-backend-wasm.js"></script>
+    <!-- Load the qna model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
+    <!-- Import @tensorflow/tfjs or @tensorflow/tfjs-core -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script src="./qanda.js"></script>
+
+</body>
+
+</html>
