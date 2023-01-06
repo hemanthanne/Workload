@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tensorflow-models/qna": "^1.0.1",
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-core": "^4.1.0",
+    "lite-server": "^2.6.1",
+    "qna": "^1.0.1"
+  }
+}
