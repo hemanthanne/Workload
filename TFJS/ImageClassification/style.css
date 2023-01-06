@@ -1,0 +1,109 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karma", sans-serif
+}
+
+.d3-bar-block .d3-bar-item {
+    padding: 20px
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+.d3-row-padding:after,
+.d3-row-padding:before,
+.d3-bar:before,
+.d3-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.d3-quarter {
+    float: left;
+    width: 100%
+}
+
+@media (min-width:601px) {
+    .d3-quarter {
+        width: 24.99999%
+    }
+}
+
+.d3-content,
+.d3-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.d3-top,
+.d3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.d3-top {
+    top: 0
+}
+
+.d3-row-padding,
+.d3-row-padding>.d3-half,
+.d3-row-padding>.d3-third,
+.d3-row-padding>.d3-twothird,
+.d3-row-padding>.d3-threequarter,
+.d3-row-padding>.d3-quarter,
+.d3-row-padding>.d3-col {
+    padding: 0 8px
+}
+
+.d3-xlarge {
+    font-size: 24px !important
+}
+
+.d3-center {
+    text-align: center !important
+}
+
+.d3-padding {
+    padding: 8px 16px !important
+}
+
+.d3-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.d3-white,
+.d3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.image-prediction {
+    font-weight: 900;
+    font-size: large;
+}
+
+.qas-wrap .prediction-holder {
+    display: none;
+}
+
+.qas-wrap .prediction {
+    margin-right: 4px;
+    border: 1px solid #ddd;
+    padding-left: 2px;
+    padding-right: 2px;
+}
